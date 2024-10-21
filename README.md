@@ -9,8 +9,8 @@ Silk is a clean, responsive blog theme for [Zola](https://www.getzola.org/)
 First download this theme to your `themes` directory:
 
 ```bash
-$ cd themes
-$ git clone https://github.com/DenysVuika/zola-silk.git
+cd themes
+git clone https://github.com/DenysVuika/zola-silk.git
 ```
 
 and then enable it in your `config.toml`:
@@ -28,6 +28,20 @@ paginate_by = 5
 sort_by = "date"
 insert_anchor_links = "right"
 +++
+```
+
+If you only want part of the files and do not care about history,
+you can use a shallow clone with minimal depth and then remove Git:
+
+```bash
+git clone --depth 1 https://github.com/DenysVuika/zola-silk.git
+```
+
+To remove the git history:
+
+```bash
+cd zola-silk
+rm -rf .git
 ```
 
 ## Updating theme
