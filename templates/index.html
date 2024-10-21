@@ -53,6 +53,7 @@
 
         {% if config.extra.social_mastodon -%}
         <link rel="me" href="https://mastodon.social/{{ config.extra.social_mastodon }}" />
+        <meta name="fediverse:creator" content="{{ config.extra.social_mastodon }}@mastodon.social">
         {%- endif %}
 
         {% if config.generate_feed -%}
