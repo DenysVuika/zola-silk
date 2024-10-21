@@ -30,6 +30,15 @@ insert_anchor_links = "right"
 +++
 ```
 
+## Updating theme
+
+To get the latest version of the theme:
+
+```bash
+cd themes/zola-silk
+git pull --rebase
+```
+
 ## Reference guides
 
 ## Configuration Options
