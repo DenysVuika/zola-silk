@@ -1,0 +1,19 @@
+name = "silk"
+description = "A modern, simple, clean blog theme for Zola."
+license = "Apache-2.0"
+homepage = "https://github.com/DenysVuika/zola-silk"
+# The minimum version of Zola required
+min_version = "0.19.0"
+# An optional live demo URL
+demo = ""
+
+# Any variable there can be overridden in the end user `config.toml`
+# You don't need to prefix variables by the theme name but as this will
+# be merged with user data, some kind of prefix or nesting is preferable
+# Use snake_casing to be consistent with the rest of Zola
+[extra]
+
+# The theme author info: you!
+[author]
+name = "Denys Vuika"
+homepage = "https://denys.dev"
