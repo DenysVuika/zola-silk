@@ -17,3 +17,10 @@ demo = ""
 [author]
 name = "Denys Vuika"
 homepage = "https://denys.dev"
+
+# If this is porting a theme from another static site engine, provide
+# the info of the original author here
+[original]
+name = "Luke Hsiao"
+homepage = "https://luke.hsiao.dev"
+repo = "https://github.com/lukehsiao/zola-pickles"
