@@ -51,6 +51,10 @@
 
         <link rel='icon' type='image/x-icon' href="{{ get_url(path="favicon.ico") }}" />
 
+        {% if config.extra.social_mastodon -%}
+        <link rel="me" href="https://mastodon.social/{{ config.extra.social_mastodon }}" />
+        {%- endif %}
+
         {% if config.generate_feed -%}
         <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path="atom.xml") }}">
         {%- endif %}
@@ -139,4 +143,3 @@
       {%- endif %}
     </body>
 </html>
-

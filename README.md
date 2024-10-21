@@ -48,7 +48,7 @@ git pull --rebase
 subtitle = "Example subtitle"
 
 # Text to display in the footer of the page
-copyright = "Copyright authors year"
+copyright = "Copyright details"
 
 # Your Google Analytics ID
 analytics = ""
@@ -58,6 +58,9 @@ katex_enable = false
 
 # See below
 instantpage_enable = false
+
+# Social media links
+social_mastodon = "@account"
 ```
 
 A full example configuration is included in config.toml.

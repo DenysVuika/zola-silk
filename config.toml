@@ -154,3 +154,4 @@ copyright = "Copyright <i class=\"fas fa-heart\" style=\"color: red;\"></i> auth
 analytics = ""
 katex_enable = true
 instantpage_enable = true
+social_mastodon = ""
