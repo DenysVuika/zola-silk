@@ -1,0 +1,12 @@
+.p-social-icons {
+  padding: 12px 0;
+
+  a:not(:last-of-type) {
+    margin-inline-end: 12px;
+  }
+
+  a svg {
+    height: 18px;
+    width: 18px;
+  }
+}

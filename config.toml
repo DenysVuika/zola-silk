@@ -154,4 +154,13 @@ copyright = "Copyright <i class=\"fas fa-heart\" style=\"color: red;\"></i> auth
 analytics = ""
 katex_enable = true
 instantpage_enable = true
+
+[extra.silk]
 social_mastodon = ""
+
+# Social icons to display on the main page
+social_icons = [
+    { url = "https://mastodon.social/@kesertki", title = "Mastodon", icon = "mastodon" },
+    { url = "https://github.com/DenysVuika", title = "GitHub", icon = "github" },
+    { url = "$BASE_URL/atom.xml", title = "RSS", icon = "rss" },
+]

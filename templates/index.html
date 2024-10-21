@@ -1,4 +1,5 @@
 {% import "post_macros.html" as post_macros %}
+{% import "macros/social_icon.svg.html" as macro_social -%}
 
 <!DOCTYPE html>
 <html lang="{{ lang }}">
@@ -51,9 +52,9 @@
 
         <link rel='icon' type='image/x-icon' href="{{ get_url(path="favicon.ico") }}" />
 
-        {% if config.extra.social_mastodon -%}
-        <link rel="me" href="https://mastodon.social/{{ config.extra.social_mastodon }}" />
-        <meta name="fediverse:creator" content="{{ config.extra.social_mastodon }}@mastodon.social">
+        {% if config.extra.silk.social_mastodon -%}
+        <link rel="me" href="https://mastodon.social/{{ config.extra.silk.social_mastodon }}" />
+        <meta name="fediverse:creator" content="{{ config.extra.silk.social_mastodon }}@mastodon.social">
         {%- endif %}
 
         {% if config.generate_feed -%}
@@ -80,6 +81,9 @@
                 {{ config.extra.subtitle }}
             </p>
             {% endif -%}
+            {% if config.extra.silk.social_icons -%}
+            {% include "partials/social_icons.html" %}
+            {%- endif %}
         </header>
         {%- endblock header %}
 

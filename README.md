@@ -59,11 +59,20 @@ katex_enable = false
 # See below
 instantpage_enable = false
 
-# Social media links
+[extra.silk]
+
+# Social media headers
 social_mastodon = "@account"
+
+# Social icons
+social_icons = [
+  { url = "https://mastodon.social/@account", title = "Mastodon", icon = "mastodon" },
+  { url = "https://github.com/account", title = "GitHub", icon = "github" },
+  { url = "$BASE_URL/atom.xml", title = "RSS", icon = "rss" },
+]
 ```
 
-A full example configuration is included in config.toml.
+See `config.toml` for more options.
 
 Note how theme also expects `title` and `description` to also be set in the Zola configuration.
 
