@@ -63,7 +63,7 @@ instantpage_enable = false
 
 A full example configuration is included in config.toml.
 
-Note how pickles also expects `title` and `description` to also be set in the Zola configuration.
+Note how theme also expects `title` and `description` to also be set in the Zola configuration.
 
 ### KaTeX math formula support
 
