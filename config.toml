@@ -76,7 +76,7 @@ highlight_code = true
 
 # The theme to use for code highlighting.
 # See below for list of allowed values.
-highlight_theme = "solarized-light"
+highlight_theme = "material-light"
 
 # When set to "true", emoji aliases translated to their corresponding
 # Unicode emoji equivalent in the rendered Markdown files. (e.g.: :smile: => 😄)
