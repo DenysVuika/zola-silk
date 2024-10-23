@@ -70,6 +70,21 @@ social_icons = [
   { url = "https://github.com/account", title = "GitHub", icon = "github" },
   { url = "$BASE_URL/atom.xml", title = "RSS", icon = "rss" },
 ]
+
+[extra.silk.favicon]
+
+# [recommended] a SVG favicon
+# svg = "/images/favicon.svg"
+
+# [recommended] generate a 32px PNG favicon from the SVG
+# png = "/images/favicon-32x32.png"
+
+# [recommended] generate either a 180px or a 192px PNG image
+# 180px - if you want to use the size recommended by apple
+# 192px - if you want to use a single 192px image both for apple devices and for
+# the android web app manifest; the image will be automatically resized to 180px
+# for apple devices
+# apple = "/images/apple-touch-icon.png"
 ```
 
 See `config.toml` for more options.

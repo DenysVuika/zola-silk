@@ -1,0 +1,19 @@
+{% macro favicon() %}
+
+{%- if config.extra.silk.favicon.ico %}
+<link rel="icon" href="{{ get_url(path=config.extra.silk.favicon.ico) }}" type="image/x-icon">
+{% endif -%}
+
+{%- if config.extra.silk.favicon.png %}
+<link rel="icon" href="{{ get_url(path=config.extra.silk.favicon.png) }}" type="image/png">
+{% endif -%}
+
+{%- if config.extra.silk.favicon.svg %}
+<link rel="icon" href="{{ get_url(path=config.extra.silk.favicon.svg) }}" type="image/svg+xml">
+{% endif -%}
+
+{%- if config.extra.silk.favicon.apple %}
+<link rel="apple-touch-icon" href="{{ get_url(path=config.extra.silk.favicon.apple) }}">
+{% endif -%}
+
+{% endmacro %}

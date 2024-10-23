@@ -1,5 +1,6 @@
 {% import "post_macros.html" as post_macros %}
-{% import "macros/social_icon.svg.html" as macro_social -%}
+{% import "macros/social_icon.svg.html" as macro_social %}
+{% import "macros/head.html" as head %}
 
 <!DOCTYPE html>
 <html lang="{{ lang }}">
@@ -50,7 +51,10 @@
         <link href="{{ get_url(path="fontawesome/solid.css") }}" rel="stylesheet">
         {%- endblock css %}
 
-        <link rel='icon' type='image/x-icon' href="{{ get_url(path="favicon.ico") }}" />
+        {%- block favicon -%}
+            {{ head::favicon() }}
+        {%- endblock -%}
+
 
         {% if config.extra.silk.social_mastodon -%}
         <link rel="me" href="https://mastodon.social/{{ config.extra.silk.social_mastodon }}" />
