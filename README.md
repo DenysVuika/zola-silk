@@ -4,6 +4,22 @@ Silk is a clean, responsive blog theme for [Zola](https://www.getzola.org/)
 
 ![silk screenshot](docs/screenshot.png)
 
+## Features
+
+- Minimalistic design
+- Default robots.txt with AI bots prevention
+- Responsive
+- Syntax highlighting
+- Math formula support
+- Social media links
+- Instant page prefetching
+- Fontawesome icons
+- Table, Figure shortcodes
+- RSS feed
+- Pagination
+- Anchor links
+- Customizable footer, favicon, copyright, subtitle, social media links, and more
+
 ## Installation
 
 First download this theme to your `themes` directory:
