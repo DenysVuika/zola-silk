@@ -163,6 +163,7 @@ social_mastodon = "@kesertki"
 # Social icons to display on the main page
 social_icons = [
     { url = "https://mastodon.social/@kesertki", title = "Mastodon", icon = "mastodon" },
+    { url = "https://bsky.app/profile/denys.dev", title = "Bluesky", icon = "bluesky" },
     { url = "https://github.com/DenysVuika", title = "GitHub", icon = "github" },
     { url = "$BASE_URL/atom.xml", title = "RSS", icon = "rss" },
 ]
