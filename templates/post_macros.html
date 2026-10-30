@@ -10,5 +10,12 @@
             {%- endif %}
             {{ " - " }}({{ page.reading_time }} min read)
         </p>
+        {% if page.taxonomies.tags -%}
+        <div class="c-tags">
+            {% for tag in page.taxonomies.tags -%}
+            <a class="c-tag" href="{{ config.base_url }}/tags/{{ tag | slugify | safe }}">{{ tag }}</a>
+            {%- endfor %}
+        </div>
+        {%- endif %}
     </header>
 {% endmacro title %}
