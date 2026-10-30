@@ -61,7 +61,7 @@
         <meta name="fediverse:creator" content="{{ config.extra.silk.social_mastodon }}@mastodon.social">
         {%- endif %}
 
-        {% if config.generate_feed -%}
+        {% if config.generate_feeds -%}
         <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path="atom.xml") }}">
         {%- endif %}
 
